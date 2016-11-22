@@ -84,7 +84,7 @@ Shoes.app :width => 600, :height => 300, :title => "SIX" do
             background '#222'
             if res.nil?
               para "No matches", :stroke => '#efefef', :font => 'normal 12px'
-              para "Try Again bro", :stroke => '#efefef', :font => 'normal 12px'
+              para "#{@seq_a}", :stroke => '#efefef', :font => 'normal 12px'
               para "Guess : #{@score}", :stroke => '#efefef', :font => 'normal 12px'
               if @score == 6
                 para "You have HIT a SIX! bro", :stroke => 'efefef', :font => 'normal 12px'
