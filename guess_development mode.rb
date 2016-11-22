@@ -1,5 +1,6 @@
 
 README = <<END
+__DEVELOPMENT MODE__
 Welcome to the guessing game. The computer will generate a six digit sequence (eg- ascdsd) and you have to guess 1 alphabet, each at a time. 
 Guessing 6 alphabets gets you a "SIX" and a new sequence is generated.
 So ready to test your luck quotient - 
