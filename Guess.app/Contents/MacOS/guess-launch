@@ -1,0 +1,12 @@
+#!/bin/bash
+APPPATH="${0%/*}"
+this_dir=$APPPATH
+unset DYLD_LIBRARY_PATH
+APPPATH=/Applications/Shoes.app/Contents/MacOS
+cd "$APPPATH"
+#echo "[Pango]" > pangorc
+#echo "ModuleFiles=$APPPATH/pango.modules" >> pangorc
+#echo "ModulesPath=$APPPATH/pango/modules" >> pangorc
+#PANGO_RC_FILE="$APPPATH/pangorc" ./pango-querymodules > pango.modules
+#DYLD_LIBRARY_PATH="$APPPATH" SHOES_RUBY_ARCH="x86_64-darwin13" ./shoes-bin "$this_dir/guess.rb"
+open -a /Applications/Shoes.app "$this_dir/guess.rb"
